@@ -23,7 +23,7 @@ Once the import job is created you can see the following dashboard:
 
 ### Create user dataset and import it
 For the user dataset, you can click on the create user dataset from the dashboard as in the screenshot above. Provide a name for dataset and create a new schema. For this usercase, I m using the following schema.
-
+```
 {
 	"type": "record",
 	"name": "Users",
@@ -45,7 +45,7 @@ For the user dataset, you can click on the create user dataset from the dashboar
 	],
 	"version": "1.0"
 }
-
+```
 For the import job,specify the S3 bucket and IAM role(similar to previous step). The Sample user data which I used is as follows
 
 [user csv](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/user.csv)
@@ -53,6 +53,7 @@ For the import job,specify the S3 bucket and IAM role(similar to previous step).
 ### Create item dataset and import it
 
 For the item dataset,you can create an item data set from the dashboard. Provide a name and schema name. For the schema, I used:
+```
 {
 	"type": "record",
 	"name": "Items",
@@ -70,6 +71,7 @@ For the item dataset,you can create an item data set from the dashboard. Provide
 	],
 	"version": "1.0"
 }
+```
 
 You can specify the import job name, IAM role and S3 bucket location. Here is the sample file I used for this exercise:
 
