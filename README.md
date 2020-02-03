@@ -10,13 +10,14 @@ Amazon Pinpoint helps you engage with your customers by sending them email, SMS,
 In your preferred region/available region, search for Amazon pinpoint
 
 #### 2) Create Project
-Click Create Project and provide a name to the project
+Click Create Project and provide a name to the project.It will ask you to enable different channels, but you can skip this step for now
 ![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Screen%20Shot%202020-02-02%20at%202.10.16%20PM.png)
-It will ask you to enable different channels, but you can skip this step for now
+
+
 
 #### 3) Create Segment
 Next step is creation of the segment. This is your target customer with whom you want to send out communication. On the left side of the project, you can see segment. You can hit “create segment” and import from S3 bucket or from your local machine. 
-![Alt text] (https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-02%20at%202.17.50%20PM.png)
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-02%20at%202.17.50%20PM.png)
 
 #### 4) Enable Channel
 Lets first try the SMS channel. In the Settings on the left side, enable the SMS channel. 
