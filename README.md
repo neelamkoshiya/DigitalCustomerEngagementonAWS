@@ -5,6 +5,8 @@ Below is my attempt to showcase digital customer engagement on AWS using Amazon 
 
 ## Here is a high level architecture
 
+![Alt Text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/IMG_9338.jpg)
+
 ## Amazon Pinpoint for customer engagement via multiple channels
 [Pinpoint](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/tree/master/Pinpoint)
 
