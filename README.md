@@ -36,5 +36,5 @@ Next —> keep default to immediately
 Next—>Launch Template
 
 #### 7) You should see an SMS send out as per your template.
-
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/IMG_9338.jpg)
 
