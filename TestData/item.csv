@@ -1,0 +1,41 @@
+﻿ITEM_ID,GENRE
+brut_classic,Groceries 
+campbells_chicken,Groceries|Soup
+colgate,Dental Products|Groceries 
+colgate_sensitive,Dental Products|Groceries 
+crest_3dwhite,Dental Products|Groceries 
+dove,Groceries|SkinCare
+dove_gentleexfoliating,Groceries|SkinCare
+eucerin_dailyhydration,Groceries|SkinCare
+featherlight_cap,Athletics 
+fliptop_waterbottle,Athletics 
+goldfish_cheddar,Groceries|Snack
+goldfish_grahams,Groceries|Snack
+greenies,Dog Products 
+kelloggs_cornpops,Groceries|Breakfast
+lee_regularfit_blue,Men_apparel 
+lee_relaxedfit_beige,Women_apparel 
+lee_relaxedfit_black,Women_apparel 
+lever_soap,Groceries|SkinCare
+lipton_blacktea,Groceries|Beverage
+lipton_matzoball_soupmix,Groceries|Beverage
+milano_darkchoclate,Groceries|Beverage
+monster_drink,Groceries|Beverage
+nescafe_tasterschoice,Groceries|Beverage
+nike_shoe_black,Athletics|Women_apparel 
+nike_shoe_pink,Athletics|Women_apparel 
+olay_regenerist,Groceries|Snack
+oreo_mini,Groceries|Snack
+pacific_vegetablebroth,Groceries|Soup
+pantene_dailymoisture_conditioner,Groceries|HairCare
+pantene_dailymoisture_shampoo,Groceries|HairCare
+quaker_lowersugar,Groceries|Breakfast
+quaker_simplygranola,Groceries|Breakfast
+quaker_vanillamultigraincereal,Groceries|Breakfast
+scotchbrite,Cleaning Products 
+smartwater,Groceries|Beverage
+starbucks,Groceries|Beverage
+suave_milkhoney,Groceries|SkinCare
+suave_wildcherrylotion,Groceries|SkinCare
+vaseline_intensivecare,Groceries|SkinCare
+velveeta_cheesesauce,Groceries|Snack
