@@ -1,0 +1,7 @@
+ChannelType,Address,Location.Country,Demographic.Platform,Demographic.Make,User.UserId,User.UserAttributes.FirstName,Attributes.CustomerPreference
+SMS,12345678900,USA,iOS,Apple,example-user-id-1,Neelam,Black
+APNS,1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f,USA,iOS,Apple,example-user-id-2,Aaron,Green
+EMAIL,test@example.com,USA,iOS,Apple,example-user-id-2,Neelam,Pink
+GCM,4d5e6f1a2b3c4d5e6f7g8h9i0j1a2b3c,USA,Android,Google,example-user-id-3,John,Blue
+EMAIL,sample@example.com,USA,Android,OnePlus,example-user-id-3,Neelu,Red
+SMS,12345678900,USA,iOS,Apple,example-user-id-4,Arun,Yellow
