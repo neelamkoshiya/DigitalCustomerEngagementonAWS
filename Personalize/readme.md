@@ -15,9 +15,9 @@ You can begin by creating the data set for the past user-item interaction. I m k
 For the IAM role for personalize to fetch the data from S3, you can create a new role and grant the permission or use an existing role with the required permission. 
 
 I have uploaded the test data in my example here. You can change the data as per your requirement and your business usecase. But the idea is to have past user-item interaction which is used to train the model. You can upload this to S3 bucket and when you have to import the data and creating the import job, you can specify the bucket in the format : S3://bucketname/retail_v2.csv You can replace it with your file name and bucket name. 
-[github](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/retail_v2.csv)
+[user item interaction](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/retail_v2.csv)
 
-Depending 
+Once the import job is created you can see the following dashboard: 
 ![Alt Text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-02%20at%208.05.51%20PM.png)
 
 
@@ -48,7 +48,7 @@ For the user dataset, you can click on the create user dataset from the dashboar
 
 For the import job,specify the S3 bucket and IAM role(similar to previous step). The Sample user data which I used is as follows
 
-[github](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/user.csv)
+[user csv](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/user.csv)
 
 ### Create item dataset and import it
 
@@ -73,5 +73,5 @@ For the item dataset,you can create an item data set from the dashboard. Provide
 
 You can specify the import job name, IAM role and S3 bucket location. Here is the sample file I used for this exercise:
 
-[github](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/item.csv)
+[item csv](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/item.csv)
 
