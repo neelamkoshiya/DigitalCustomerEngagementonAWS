@@ -124,8 +124,54 @@ Note: The if else loop is to make sure the recommendated items are unique
 
 Now that our lambda function is ready. You can create a trigger to the lambda function and select API Gateway. Create new API- Rest API, with IAM role authentication with lambda.
 
+This will be a regional API with get method to get the recommendation
 
+On the API -->Click action--> create method and select GET from the drop down. In the method request, select the lambda integration and pick the lambda you created in the previous steps
 
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-03%20at%206.03.14%20AM.png)
 
+In the method integration ensure you put in mapping template as application/json and the mapping as follows
+
+![Alt Text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-03%20at%206.05.07%20AM.png)
+
+```
+{
+    "userId" : "$input.params('userId')",
+    "itemId" : "$input.params('itemId')"
+}
+```
+
+This will help make the API request query parameter to the input of the lambda function.
+
+Enable CORS by clicking On the API -->Click action-->Enable CORS
+
+Deploy the API by clicking On the API -->Deploy API-->In the stage you can select new stage and call it prod and deploy it.
+
+You will be routed to the API URL page, click on your API and copy the URL, it would be somthing like this:
+
+```
+ https://XXX.execute-api.us-west-2.amazonaws.com/prod/TestRecommendation
+```
+![alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-03%20at%206.56.18%20AM.png)
+
+### Testing the API
+
+#### Testing via a web browser
+
+You can open a web browser and type in your api url with the parameters as follows
+```
+https://XXX.execute-api.us-west-2.amazonaws.com/prod/TestRecommendation?itemId=lee_relaxedfit_beige&userId=webuser
+```
+![Alt Text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-03%20at%206.58.30%20AM.png)
+
+#### Testing via postman
+
+Download Postman, create a new collection, new request. 
+Type in the URL and you can pass the parameter as follows.
+
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-03%20at%207.00.40%20AM.png)
+
+## Share the API with other channels and other application 
+You get recommendation URL is ready and you can share it with other teams and applications to call and get recommendations for customers!
 
 
