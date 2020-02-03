@@ -175,3 +175,15 @@ Type in the URL and you can pass the parameter as follows.
 You get recommendation URL is ready and you can share it with other teams and applications to call and get recommendations for customers!
 
 
+## Personalize Event Tracker
+The most effective mechanism for a model's relevance is if it continously trained and iterated as per changing trends, products,preferences, customer interactions. Event Tracker helps to feed this new information back to personalize for it to perform those iterations.
+
+### Go to your personalize datasetgroup, create event tracker, provide a name and hit create.
+Copy the tracking id.
+
+### Lambda function for event tracking
+You can create a lambda function which you create for the above tracking id. The input in this case is a event bridge where all the customer interactions from various sources is pushed in so it is captured and send to event tracking. You can change the input depending on your requirement
+
+Sample Lambda code is as follows: (Make sure to replace the tracking id with your tracking id)
+[github](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/eventtracker.py)
+
