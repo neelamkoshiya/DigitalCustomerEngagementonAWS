@@ -122,7 +122,7 @@ Note: The if else loop is to make sure the recommendated items are unique
 
 ### Create API
 
-Now that our lambda function is ready. You can create a trigger to the lambda function and select API Gateway
+Now that our lambda function is ready. You can create a trigger to the lambda function and select API Gateway. Create new API- Rest API, with IAM role authentication with lambda.
 
 
 
