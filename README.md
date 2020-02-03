@@ -44,7 +44,7 @@ Lets first try the SMS channel. In the Settings on the left side, enable the SMS
 #### 5) Create SMS Template. 
 From the Message Template on the left, create a new template and select SMS as channel.
 For this example you can specify the following:
-Hello {{User.UserAttributes.FirstName}} ! There is something special waiting for you! and yes it is {{Attributes.CustomerPreference}} Login to your account now and check it!
+**"Hello {{User.UserAttributes.FirstName}} ! There is something special waiting for you! and yes it is {{Attributes.CustomerPreference}} Login to your account now and check it!"**
 
 #### 6) Create campaign
 Next step is to create a campaign. On the left side of the project place, click on campaign
