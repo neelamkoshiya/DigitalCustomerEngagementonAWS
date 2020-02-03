@@ -77,3 +77,13 @@ You can specify the import job name, IAM role and S3 bucket location. Here is th
 
 [item csv](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/TestData/item.csv)
 
+## Create Solution
+On the dashboard, you can click create solution once the data import is completed.
+Provide a name for the solution. For the recipe, specify **aws-hrnn-metadata** I m keeping the hyperparameter to default for this exercise. Creation of solution can take several hours since personalize is actually creating a model per the data you provided. 
+
+## Create Campaign
+Once the solution creation is done, you can now use the model created for providing recommendation 
+
+
+
+
