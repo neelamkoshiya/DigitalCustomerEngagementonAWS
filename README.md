@@ -19,6 +19,25 @@ Click Create Project and provide a name to the project.It will ask you to enable
 Next step is creation of the segment. This is your target customer with whom you want to send out communication. On the left side of the project, you can see segment. You can hit “create segment” and import from S3 bucket or from your local machine. 
 ![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-02%20at%202.17.50%20PM.png)
 
+##### Here is sample input file:
+https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/pinpoint_example_import%20copy.csv
+First let me example you the structure of the file.
+
+Channel: A channel represents the platform through which you engage your audience segment with messages. This could be EMAIL, SMS, APNS, GCM.
+
+Here are the supported attribute:
+https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html#segments-importing-available-attributes
+
+You can add custom Attribute by defining the column as "Attribute.CustomAttribute"
+Where CustomAttribute can be replaced by your custom attribute. In this example I m using the custom attribute - CustomerPreference which is customer's color preference. I want to target the communication to the customer siting this preference. 
+
+For Further details: 
+https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html
+
+Here is glimpse of the file.
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Images/Screen%20Shot%202020-02-02%20at%205.52.53%20PM.png)
+
+
 #### 4) Enable Channel
 Lets first try the SMS channel. In the Settings on the left side, enable the SMS channel. 
 
