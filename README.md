@@ -11,7 +11,7 @@ In your preferred region/available region, search for Amazon pinpoint
 
 #### 2) Create Project
 Click Create Project and provide a name to the project
-![Alt text](Images/Screen Shot 2020-02-02 at 2.10.16 PM.png)
+![Alt text](https://github.com/neelamkoshiya/DigitalCustomerEngagementonAWS/blob/master/Screen%20Shot%202020-02-02%20at%202.10.16%20PM.png)
 It will ask you to enable different channels, but you can skip this step for now
 
 #### 3) Create Segment
